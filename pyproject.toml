@@ -1,0 +1,17 @@
+[project]
+name = "djangogirls"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "y", email = "antonino.cangialosi@agilelab.it"},
+]
+dependencies = [
+    "django>=5.0.6",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "y"}
+
+
+[tool.pdm]
+distribution = false
